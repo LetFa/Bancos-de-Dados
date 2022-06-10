@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+body {
+    background-color: #7ebfff;
+
+}
+
+h1 {
+    width: 700px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    background-color: rgb(94, 92, 94);
+    border-radius: 20px;
+    color: white;
+    box-shadow: 3px 3px 3px #bbb;
+}
+
+div#caderno img {
+    position: absolute;
+    left: 900px;
+    top: 10px;
+}
+
+fieldset {
+    width: 300px;
+    margin: 0 auto;
+    background-color: rgb(94, 92, 94);
+    border-radius: 20px;
+    color: white;
+    margin-top: 30px;
+}
+
+div {
+    margin-top: 10px;
+    margin-left: 3px;
+}
+div#nome {
+    margin-left: 13px;
+}
+input {
+    margin-left: 5px;
+}
+div#objeto {
+    margin-left: 11px;
+}
+div#marca {
+    margin-left: 14px;
+}
+div#cidade {
+    margin-left: 11px;
+}
+div#estado select{
+  margin-left: 6px;
+}
+div#estado label {
+    margin-left: 10px;
+}
+div#celular {
+    margin-left: 11px;
+}
+div#email {
+    margin-left: 14px;
+}

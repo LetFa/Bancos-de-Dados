@@ -1,0 +1,39 @@
+body {
+   background-color: #7ebfff; 
+}
+h1 {
+    width: 400px;
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    background-color: rgb(94, 92, 94);
+    border-radius: 20px;
+    color: white;
+    box-shadow: 3px 3px 3px #bbb;
+}
+
+
+div#menu li {
+    list-style-type: none;
+
+}
+
+div#menu li img{
+    width: 140px;
+    border-radius: 10px;
+    margin: 7px;
+}
+div#menu p {
+    position: absolute;
+    left: 80px;
+    top: 195px;
+    color: white;
+}
+div#menu p#p2 {
+    position: absolute;
+    left: 78px;
+    top: 110px;
+    color: white;
+}
