@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roupas</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+        <header class="cabecalho">
+            <h1>Cadastro das Roupas</h1>
+        </header>
+        <form action="" method="post" enctype="multipart/form-data">
+            <div id="icone">
+                <img src="bone.png">
+            </div>
+        <fieldset>
+            <main class="conteudo-principal">
+                <div id="nome">
+                    <label>Nome:</label>
+                    <input type="text" name="nome" placeholder="Nome completo">
+                </div>
+                <div id="tipo">
+                    <label>Tipo:</label>
+                    <input type="text" name="tipo" placeholder="Tipo de roupa">
+                </div>
+                <div id="marca">
+                    <label>Marca:</label>
+                    <input type="text" name="marca" placeholder="Marca da roupa">
+                </div>
+                <div id="cidade">
+                    <label>Cidade:</label>
+                    <input type="text" name="cidade">
+                </div>
+                <div id="estado">
+                    <label>Estado:</label>
+                    <select name="estado">
+                        <option>AC</option>
+                        <option>AL</option>
+                        <option>AP</option>
+                        <option>AM</option>
+                        <option>BA</option>
+                        <option>CE</option>
+                        <option>DF</option>
+                        <option>ES</option>
+                        <option>GO</option>
+                        <option>MA</option>
+                        <option>MT</option>
+                        <option>MS</option>
+                        <option>MG</option>
+                        <option>PA</option>
+                        <option>PB</option>
+                        <option>PR</option>
+                        <option>PE</option>
+                        <option>PI</option>
+                        <option>RJ</option>
+                        <option>RN</option>
+                        <option>RS</option>
+                        <option>RO</option>
+                        <option>RR</option>
+                        <option>SP</option>
+                    </select>
+                </div>
+                <div>
+                    <label>Telefone:</label>
+                    <input type="text" name="telefone">
+                </div>
+                <div id="email">
+                    <label>E-mail:</label>
+                    <input type="email" name="email" placeholder="@gmail.com">
+                </div>
+                <br>
+                <div class="form-item">
+                    <input type="file" id="foto" name="foto" accept="image/*" />
+                </div> 
+                </br>
+                <div id="botao">
+                    <a href="lista_cadastro.phh"><button type="submit">Enviar</button></a>
+                    <a href="index.php"><img id="seta" src="seta.png"></a>
+                </div>
+            </main>
+        </fieldset>
+     </form>
+</body>
+</html>
